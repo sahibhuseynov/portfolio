@@ -239,11 +239,11 @@ border-radius: 20px;
 }
 .card1{
     background-color: #6b74ec !important;
-    margin-bottom: 15px;
+    
     transition: 0.4s ease;
 }.card2{
     background-color: #ffd14b !important;
-    margin-bottom: 15px;
+    
     transition: 0.4s ease;
 }.card3{
     background-color: #ff888b !important;
