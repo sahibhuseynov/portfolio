@@ -424,7 +424,6 @@ background-color: #2b2543 !important;
     
    }
    .card__content{
-    background-image: url(/photo/screencapture-sahibhuseynov-github-io-figma12-2022-03-09-00_24_14.png);
    width: 100%;
    height: 100%;
     background-repeat: no-repeat;
@@ -435,7 +434,6 @@ background-color: #2b2543 !important;
     cursor: pointer;
    }
    .content2{
-       background-image: url(/photo/syte2.png);
        width: 100%;
        height: 100%;
         background-repeat: no-repeat;
@@ -443,7 +441,6 @@ background-color: #2b2543 !important;
         transition: 7s ease;
    }
    .content3{
-    background-image: url(/photo/sy3.png);
     width: 100%;
     height: 100%;
      background-repeat: no-repeat;
@@ -451,7 +448,6 @@ background-color: #2b2543 !important;
      transition: 4s ease;
 }
 .content4{
-    background-image: url(/photo/sy4.png);
     width: 100%;
     height: 100%;
      background-repeat: no-repeat;
