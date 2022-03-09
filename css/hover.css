@@ -1,0 +1,78 @@
+/* From cssbuttons.io by @nikk7007 */
+.button {
+    --color: #ffc75e;
+    
+    background-color: transparent;
+    
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    
+ 
+    
+    
+    color: #fff;
+    z-index: 1;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: rgb(10, 25, 30);
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }
+   
+
+
+
+   
+   
+   .btnn {
+    background: linear-gradient(-45deg, #3f00b5, #9f69fe, #27c8b7, #3f00b5);
+    background-size: 800% 400%;
+    
+   
+    border: none;
+   
+    
+    color: white;
+    transition: all .5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(.62, .28, .23, .99) both;
+   }
+   
+   .btnn:hover {
+    animation: gradient 3s infinite;
+    transform: scale(1.05);
+   }
+   
+   .btnn:active {
+    animation: gradient 3s infinite;
+    transform: scale(0.8);
+   }

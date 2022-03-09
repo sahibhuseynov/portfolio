@@ -1,0 +1,67 @@
+@media (max-width:767px){
+    .aboutcard{
+        padding: 12px 47px 40px 47px !important;
+    }
+    .Experience-card{
+        margin-bottom: 15px;
+    }
+    .cards-pricing{
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        margin-bottom: 15px !important;
+    }
+    .home-slider{
+        width: 350px !important;
+    }
+    .clients-card{
+        width: 362px !important;
+    }
+
+    .clients-card2{
+        width: 300px !important;
+    }
+    
+    .portfolio-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .port-card5, .port-card6{
+        display: none;
+    }
+    .number{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .con-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+@media (max-width: 1200px){
+    .navbar-toggler{
+        background-color: #2b2543 !important;
+        
+        
+    }
+    .exper-container{
+        justify-content: center;
+        gap: 15px;
+    }
+    .pricingcard3{
+        margin-left: 0 !important;
+    }
+    
+}
+@media (min-width: 991px){
+    
+}
