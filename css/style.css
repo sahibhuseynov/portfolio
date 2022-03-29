@@ -454,6 +454,13 @@ background-color: #2b2543 !important;
      background-size: cover;
      transition: 6s ease;
 }
+.content5{
+    width: 100%;
+    height: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     transition: 2s ease;
+}
    .card__content:hover {
 background-position: bottom;
    }
